@@ -1,11 +1,11 @@
 import React from "react";
 import "../Styles/Services.css";
-import appdev3dicon from "../3dicons/ReactNative3d.png";
+import appdev3dicon from "../3dicons/ReactNative.png";
 import figma from "../3dicons/figma.png";
-import canva3dlogo from "../3dicons/canva3dlogo.png";
-import wordpress3dlogo from "../3dicons/wordpress3dlogo.png";
-import JS3dicon from "../3dicons/JS3dicon.png";
-import promptengineering3dlogo from "../3dicons/promptengineering3dlogo.png";
+import canva from "../3dicons/canva.png";
+import wordpress3dlogo from "../3dicons/wordpress.png";
+import JS3dicon from "../3dicons/JS.png";
+import promptengineering3dlogo from "../3dicons/promptengineering.png";
 function Services() {
   return (
     <>
@@ -33,7 +33,7 @@ function Services() {
           </div>
           <div className="card">
             <div className="first-content">
-              <img src={canva3dlogo} alt="" className="img-fluid icon-style" />
+              <img src={canva} alt="" className="img-fluid icon-style" />
             </div>
             <div className="second-content">
               <span className="fs-4 text-center">Canva Designing</span>
