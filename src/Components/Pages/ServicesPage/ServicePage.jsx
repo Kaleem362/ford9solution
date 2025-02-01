@@ -1,5 +1,5 @@
 import "../../../Styles/ServicesPage.css";
-import Figma from "./../../../pngicons/figma.png";
+import Figma from "./../../../pngicons/Figma.png";
 import canva from "./../../../pngicons/canva.png";
 import wordpressicon from "./../../../pngicons/wordpress.png";
 import freelancingicon from "./../../../pngicons/freelancing.png";
