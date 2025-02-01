@@ -1,12 +1,12 @@
 import "../../../Styles/ServicesPage.css";
-import figmaIcon from "../../../pngicons/figmaIcon.png";
-import canvaicon from "../../../pngicons/canvaicon.png";
-import wordpressicon from "../../../pngicons/wordpressicon.png";
-import freelancingicon from "../../../pngicons/freelancingicon.png";
-import mobileappicon from "../../../pngicons/mobileappicon.png";
-import seoicon from "../../../pngicons/seoicon.png";
-import webapplicationicon from "../../../pngicons/webapplicationicon.png";
-import promptengineeringicon from "../../../pngicons/promptengineeringicon.png";
+import Figma from "../../../pngicons/figma.png";
+import canva from "../../../pngicons/Canva.png";
+import wordpressicon from "../../../pngicons/WordPress.png";
+import freelancingicon from "../../../pngicons/freelancing.png";
+import mobileappicon from "../../../pngicons/mobileapp.png";
+import seoicon from "../../../pngicons/seo.png";
+import webapplicationicon from "../../../pngicons/webapplication.png";
+import promptengineeringicon from "../../../pngicons/promptengineering.png";
 
 function Services() {
   const services = [
@@ -32,13 +32,13 @@ function Services() {
       title: "Figma Design",
       description:
         "Create visually stunning graphics to enhance your brand identity.",
-      icon: figmaIcon,
+      icon: Figma,
     },
     {
       title: "Canva Design",
       description:
         "Design eye-catching visuals to elevate your brand presence.",
-      icon: canvaicon,
+      icon: canva,
     },
     {
       title: "WordPress Development",
