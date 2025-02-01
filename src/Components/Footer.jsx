@@ -1,12 +1,12 @@
 import React from "react";
 import logo from "../Logo/NEWCREATED.png";
 import "../Styles/Footer.css";
-import facebook from "../pngicons/facebook.png";
-import instagram from "../pngicons/instagram.png";
-import youtube from "../pngicons/youtube.png";
-import playstore from "../pngicons/playstore.png";
-import discord from "../pngicons/discord.png";
-import linkedin from "../pngicons/linkedin.png";
+import facebookIcon from "../../public/pngicons/facebook.jpg";
+import instagramIcon from "../../public/pngicons/instagram.png";
+import youtubeIcon from "../../public/pngicons/youtube.png";
+import playstoreIcon from "../../public/pngicons/playstore.png";
+import discordIcon from "../../public/pngicons/discord.png";
+import linkedinIcon from "../../public/pngicons/linkedin.png";
 import { Link } from "react-router-dom";
 
 const Footer = () => {
@@ -42,22 +42,22 @@ const Footer = () => {
           <p>follow us on social media</p>
           <div className="social-media-icons">
             <a href="https://discord.com/users/.asfandyarkhan">
-              <img src={discord} alt="discord" />
+              <img src={discordIcon} alt="discord" />
             </a>
             <a href="https://www.facebook.com/ford9institute">
-              <img src={facebook} alt="facebook" />
+              <img src={facebookIcon} alt="facebook" />
             </a>
             <a href="https://www.youtube.com/@Ford9Solutions">
-              <img src={youtube} alt="youtube" />
+              <img src={youtubeIcon} alt="youtube" />
             </a>
             <a href="https://play.google.com/store/search?q=fordnine&c=apps&hl=en">
-              <img src={playstore} alt="playstore" />
+              <img src={playstoreIcon} alt="playstore" />
             </a>
             <a href="https://www.instagram.com/ford9institute">
-              <img src={instagram} alt="instagram" />
+              <img src={instagramIcon} alt="instagram" />
             </a>
             <a href="https://www.linkedin.com/company/ford9solutions/posts/?feedView=all">
-              <img src={linkedin} alt="linkedin" />
+              <img src={linkedinIcon} alt="linkedin" />
             </a>
           </div>
         </div>
