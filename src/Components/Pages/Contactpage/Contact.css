@@ -1,0 +1,317 @@
+:root {
+  --main-color: #e06339;
+  --secondary-color: #1c426f;
+  --font-size-large: 18px;
+  --padding: 10px;
+  --primary-color: rgb(192, 182, 182) !important;
+}
+
+.contact-form-container {
+  min-height: 100vh;
+  padding: 2rem;
+  background: linear-gradient(to right, #1c426f, #e06339);
+  color: white;
+  display: flex;
+  flex-direction: column-reverse;
+  justify-content: center;
+  align-items: center;
+  width: 100% !important;
+  animation: fadeIn 1.5s ease-out;
+}
+
+.contact-header {
+  /* text-align: center; */
+  margin-bottom: 2rem;
+  animation: fadeInDown 1s ease-out;
+}
+
+.contact-header h2 {
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+}
+
+.contact-header p {
+  font-size: 1.2rem;
+  opacity: 0.8;
+}
+
+.contact-form {
+  position: relative;
+  background: rgba(255, 255, 255, 0.5);
+  backdrop-filter: blur(10px);
+  padding: 2rem;
+  border-radius: 15px;
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  max-width: 600px;
+  animation: boomIn 0.8s cubic-bezier(0.17, 0.67, 0.83, 0.67);
+}
+
+.first-div {
+  width: 100% !important;
+  padding: 20px 50px !important;
+}
+.second-div {
+  width: 100% !important;
+  padding: 50px !important;
+}
+.form-group {
+  margin-bottom: 1.5rem;
+  animation: slideIn 0.5s ease-out forwards;
+  opacity: 0;
+}
+
+.form-group:nth-child(1) {
+  animation-delay: 0.1s;
+}
+
+.form-group:nth-child(2) {
+  animation-delay: 0.2s;
+}
+
+.form-group:nth-child(3) {
+  animation-delay: 0.3s;
+}
+
+.form-group label {
+  font-size: 1.1rem;
+  font-weight: 600;
+  color: #1c426f;
+  margin-bottom: 0.5rem;
+}
+
+.form-group input,
+.form-group textarea {
+  width: 100%;
+  padding: 0.6rem 0.8rem;
+  border: none;
+  border-radius: 10px;
+  background: rgba(255, 255, 255, 0.9);
+  font-size: 1rem;
+  color: #222;
+  transition: all 0.3s ease;
+  border: 2px solid #1c426f;
+}
+
+.form-group input:focus,
+.form-group textarea:focus {
+  outline: none;
+  box-shadow: 0 0 0 2px #e06339;
+  transform: translateY(-2px);
+  border: none;
+}
+
+.form-group textarea {
+  min-height: 150px;
+  resize: vertical;
+}
+#sub-btn {
+  background-color: #222;
+  color: #d95332;
+}
+#sub-btn:hover {
+  background-color: #d95332;
+  color: #0e2b4e;
+}
+.submit-button {
+  background: #e06339;
+  color: white;
+  padding: 1rem 2rem;
+  border: none;
+  border-radius: 10px;
+  font-size: 1.2rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  margin-top: 1.5rem;
+}
+
+.submit-button:hover {
+  background: #d95332;
+  transform: translateY(-2px);
+}
+
+.status-message {
+  margin-top: 1rem;
+  font-size: 1rem;
+  color: #d95332;
+  font-weight: bold;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes fadeInDown {
+  from {
+    opacity: 0;
+    transform: translateY(-40px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes boomIn {
+  0% {
+    transform: scale(0.3);
+    opacity: 0;
+  }
+  50% {
+    transform: scale(1.05);
+  }
+  100% {
+    transform: scale(1);
+    opacity: 1;
+  }
+}
+
+@keyframes slideIn {
+  from {
+    opacity: 0;
+    transform: translateX(-20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+#whatsappbutton:hover {
+  background-color: #222 !important;
+  color: #fff !important;
+  transition: 0.4s all ease;
+  box-shadow: 1px 1px 10px #fff;
+}
+#whatsappbutton {
+  background-color: rgb(55, 207, 55) !important;
+  text-decoration: none;
+  padding: 10px 18px;
+  border-radius: 100px;
+  color: white;
+  font-weight: bold;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Manrope", sans-serif !important;
+}
+#callbutton {
+  background-color: #222 !important;
+  text-decoration: none;
+  padding: 10px 20px;
+  border-radius: 100px;
+  color: white;
+  font-weight: bold;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#callbutton:hover {
+  background-color: #d95332 !important;
+
+  overflow: hidden;
+  color: #222 !important;
+  transition: 0.4s all ease;
+  box-shadow: 1px 1px 10px #fff;
+}
+
+.modern-success-message {
+  display: flex;
+  align-items: center;
+  padding: 10px 15px;
+  background: linear-gradient(135deg, #d95332, #222);
+  border-radius: 10px;
+  box-shadow: 0 5px 20px rgba(0, 0, 0, 0.15);
+  color: white;
+  font-family: "Poppins", sans-serif;
+  position: absolute;
+  z-index: 999;
+  top: 300%;
+  left: 480px;
+  overflow: hidden;
+  width: 400px;
+
+  transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+}
+
+.modern-success-message:hover {
+  transform: scale(1.05);
+  box-shadow: 0 15px 35px rgba(0, 0, 0, 0.25);
+}
+
+.close-btn {
+  position: absolute;
+  top: 12px;
+  right: 20px;
+  background: none;
+  border: none;
+  font-size: 30px;
+  color: white;
+  cursor: pointer;
+  opacity: 0.8;
+  transition: opacity 0.3s;
+}
+
+.close-btn:hover {
+  opacity: 1;
+}
+
+.icon-wrapper {
+  background-color: rgba(255, 255, 255, 0.15);
+  padding: 20px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 20px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+}
+
+.success-icon {
+  width: 40px;
+  height: 40px;
+}
+
+.text-wrapper .title {
+  font-size: 32px;
+  font-weight: 700;
+  letter-spacing: 1.2px;
+  text-transform: uppercase;
+  color: white !important;
+  -webkit-text-stroke: 1px #222;
+}
+
+.text-wrapper .message {
+  margin-top: 6px;
+  font-size: 14px;
+  opacity: 0.85;
+}
+
+.modern-success-message::before {
+  content: "";
+  position: absolute;
+  top: -100%;
+  left: -50%;
+  width: 200%;
+  height: 200%;
+  background: radial-gradient(
+    circle,
+    rgba(255, 255, 255, 0.1),
+    rgba(255, 255, 255, 0)
+  );
+  transform: rotate(45deg);
+  transition: all 0.5s ease-in-out;
+}
+
+.modern-success-message:hover::before {
+  transform: rotate(90deg);
+  opacity: 0.5;
+}
