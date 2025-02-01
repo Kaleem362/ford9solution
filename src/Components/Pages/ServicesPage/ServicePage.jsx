@@ -1,12 +1,12 @@
 import "../../../Styles/ServicesPage.css";
 import Figmaicon from "./pngicons/Figma.png";
 import canvaicon from "./pngicons/Canva.png";
-import wordpressicon from "./pngicons/wordpress.png";
-import freelancingicon from "./pngicons/freelancing.png";
-import mobileappicon from "./pngicons/mobileapp.png";
-import seoicon from "./pngicons/seo.png";
-import webapplicationicon from "./pngicons/webapplication.png";
-import promptengineeringicon from "./pngicons/promptengineering.png";
+import wordpressicon from "./pngicons/Wordpress.png";
+import freelancingicon from "./pngicons/Freelancing.png";
+import mobileappicon from "./pngicons/MobileApp.png";
+import seoicon from "./pngicons/Seo.png";
+import webapplicationicon from "./pngicons/WebApplication.png";
+import promptengineeringicon from "./pngicons/PromptEngineering.png";
 
 function Services() {
   const services = [
