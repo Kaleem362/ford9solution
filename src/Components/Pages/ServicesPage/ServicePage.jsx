@@ -1,9 +1,9 @@
 import "../../../Styles/ServicesPage.css";
 import Figmaicon from "./pngicons/Figma.png";
-import canvaicon from "./pngicons/Canva.png";
+import canvaicon from "./pngicons/Canva1.png";
 import wordpressicon from "./pngicons/Wordpress.png";
 import freelancingicon from "./pngicons/Freelancing.png";
-import mobileappicon from "./pngicons/MobileApp.png";
+import mobileappicon from "./pngicons/MobileApp1.png";
 import seoicon from "./pngicons/Seo.png";
 import webapplicationicon from "./pngicons/WebApplication.png";
 import promptengineeringicon from "./pngicons/PromptEngineering.png";
