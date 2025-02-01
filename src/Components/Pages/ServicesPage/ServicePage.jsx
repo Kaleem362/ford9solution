@@ -1,7 +1,7 @@
 import "../../../Styles/ServicesPage.css";
 import Figma from "./pngicons/Figma.png";
 import canva from "./pngicons/Canva.png";
-import wordpressicon from "./pngicons/wordpress.png";
+import wordpressicon from "./pngicons/Wordpress.png";
 import freelancingicon from "./pngicons/freelancing.png";
 import mobileappicon from "./pngicons/mobileapp.png";
 import seoicon from "./pngicons/seo.png";
