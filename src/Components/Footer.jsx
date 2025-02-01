@@ -1,12 +1,12 @@
 import React from "react";
 import logo from "../Logo/NEWCREATED.png";
 import "../Styles/Footer.css";
-import facebookIcon from "../../public/pngicons/Facebook.png";
-import instagramIcon from "../../public/pngicons/instagram.png";
-import youtubeIcon from "../../public/pngicons/youtube.png";
-import playstoreIcon from "../../public/pngicons/playstore.png";
-import discordIcon from "../../public/pngicons/discord.png";
-import linkedinIcon from "../../public/pngicons/linkedin.png";
+import facebookIcon from "./../pngIcons/Facebook.png";
+import instagramIcon from "./../pngIcons/instagram.png";
+import youtubeIcon from "./../pngIcons/youtube.png";
+import playstoreIcon from "./../pngIcons/playstore.png";
+import discordIcon from "./../pngIcons/discord.png";
+import linkedinIcon from "./../pngIcons/linkedin.png";
 import { Link } from "react-router-dom";
 
 const Footer = () => {
