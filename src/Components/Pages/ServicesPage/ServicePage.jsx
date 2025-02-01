@@ -1,6 +1,6 @@
 import "../../../Styles/ServicesPage.css";
-import Figma from "./pngicons/Figma.png";
-import canva from "./pngicons/Canva.png";
+import Figmaicon from "./pngicons/Figma.png";
+import canvaicon from "./pngicons/Canva.png";
 import wordpressicon from "./pngicons/wordpress.png";
 import freelancingicon from "./pngicons/freelancing.png";
 import mobileappicon from "./pngicons/mobileapp.png";
@@ -32,13 +32,13 @@ function Services() {
       title: "Figma Design",
       description:
         "Create visually stunning graphics to enhance your brand identity.",
-      icon: Figma,
+      icon: Figmaicon,
     },
     {
       title: "Canva Design",
       description:
         "Design eye-catching visuals to elevate your brand presence.",
-      icon: canva,
+      icon: canvaicon,
     },
     {
       title: "WordPress Development",
