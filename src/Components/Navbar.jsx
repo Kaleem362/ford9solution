@@ -49,17 +49,7 @@ function Navbar() {
                   Home
                 </Link>
               </li>
-              <li className="nav-item mx-2">
-                <Link
-                  className={`nav-link ${
-                    activeLink === "about" ? "active" : ""
-                  }`}
-                  to="/AboutPage"
-                  onClick={() => handleLinkClick("about")}
-                >
-                  About
-                </Link>
-              </li>
+
               <li className="nav-item mx-2">
                 <Link
                   className={`nav-link ${
@@ -91,6 +81,17 @@ function Navbar() {
                   onClick={() => handleLinkClick("our-team")}
                 >
                   Our Team
+                </Link>
+              </li>
+              <li className="nav-item mx-2">
+                <Link
+                  className={`nav-link ${
+                    activeLink === "about" ? "active" : ""
+                  }`}
+                  to="/AboutPage"
+                  onClick={() => handleLinkClick("about")}
+                >
+                  About
                 </Link>
               </li>
               <li className="nav-item mx-2">

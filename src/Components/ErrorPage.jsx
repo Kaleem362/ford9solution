@@ -13,6 +13,8 @@ const Error404 = () => {
     fontWeight: "bolder",
     cursor: "pointer",
     transition: "background-color 0.3s ease",
+    textDecoration: "none",
+    margin: "50px auto",
   };
   return (
     <div className="flex flex-col items-center justify-center h-screen bg-white text-center p-6">

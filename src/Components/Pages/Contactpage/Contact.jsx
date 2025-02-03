@@ -49,7 +49,7 @@ function ContactForm() {
         </div>
 
         {/* Success/Error Message */}
-        {status === true && (
+        {/* {status === true && (
           <div class="modern-success-message">
             <button class="close-btn" onClick={() => setStatus(null)}>
               ×
@@ -80,7 +80,7 @@ function ContactForm() {
           <div className="error-message">
             <p>Failed to send the message. Please try again.</p>
           </div>
-        )}
+        )} */}
 
         <form onSubmit={handleSubmit} className="contact-form mx-auto">
           <div className="form-group">
