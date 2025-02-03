@@ -7,7 +7,7 @@ function Achievements() {
   return (
     <div className="Achievements-container d-flex flex-column p-5">
       <div className="text-center">
-        <h1 className="Manrope py-3 pt-5 fs-2 fs-md-1">Who we are</h1>
+        <h1 className="Manrope py-3 my-10 fs-6 fs-md-1">Who we are</h1>
       </div>
       <div className="d-flex gap-5 flex-column flex-column-reverse align-items-between">
         <div className="paragraph Manrope">

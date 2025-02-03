@@ -15,7 +15,6 @@
 .footer-container {
   display: grid;
   grid-template-columns: 2fr 1fr 1fr 2fr;
-  /* background-color: #222 !important; */
   background: linear-gradient(to right, #222, #1c426f);
   padding: 50px 50px 0px 50px;
   width: 100% !important;

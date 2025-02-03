@@ -10,7 +10,9 @@ function Services() {
   return (
     <>
       <div className="services-header">
-        <h1 className="mb-4 text-center">Services</h1>
+        <h1 className="Manrope py-3 my-10 fs-1 fs-md-1 text-center">
+          Services
+        </h1>
       </div>
       <div className="fluid-container d-flex flex-column p-5 services-container">
         <div className="card-container d-flex px-2 justify-content-around">

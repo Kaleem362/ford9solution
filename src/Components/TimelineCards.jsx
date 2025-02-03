@@ -40,7 +40,7 @@ function ImageSlider() {
   return (
     <>
       <div className="Timeline-container header d-flex flex-column justify-content-center align-items-center white-background">
-        <h1 className="text-center">Our Apps</h1>
+        <h1 className="Manrope py-3 my-10 fs-6 fs-md-1">Our Apps</h1>
       </div>
       <div className="google-play-button d-flex justify-content-center">
         <a

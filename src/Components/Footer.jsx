@@ -64,11 +64,17 @@ const Footer = () => {
         </div>
       </div>
       <div className="copy-right">
-        <p className="text-white mb-4">
-          &copy;All rights reserved{" -- "} Designed & developed by {" - "}
-          <a href="https://kaleem.vercel.app" style={{ fontWeight: "Bold" }}>
-            Kaleem ullah 💻
-          </a>
+        <p
+          className="text-white mb-4 "
+          style={{ display: "flex", gap: "30px" }}
+        >
+          <span>&copy; All rights reserved {"  "}</span>
+          <span>
+            Designed & developed by{" "}
+            <a href="https://kaleem.vercel.app" style={{ fontWeight: "Bold" }}>
+              Kaleem ullah 💻
+            </a>
+          </span>
         </p>
       </div>
     </>

@@ -11,7 +11,8 @@
   display: flex;
   flex-direction: column;
   background-color: var(--secondary-color);
-  padding: 30px;
+  padding: 10px;
+  padding-left: 20px !important;
   /* border-radius: 12px; */
   margin: 8px;
   max-height: 110px; /* Use max-height instead of height */
@@ -36,7 +37,7 @@
   font-weight: bolder;
   font-family: "Manrope", sans-serif;
   animation: fadeIn 3s;
-  padding-bottom: 5px;
+  padding-bottom: 0px;
 }
 
 .identity-bar p {

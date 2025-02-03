@@ -5,7 +5,7 @@ function ProductCategories() {
   return (
     <div className="Product-container">
       <div className="product-header">
-        <h1 className="text-center">Product Categories</h1>
+        <h1 className="Manrope py-3 my-10 text-center">Product Categories</h1>
         <div className="d-flex pt-5">
           <div className="card">
             <div className="bg d-flex align-items-center">
