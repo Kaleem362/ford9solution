@@ -16,11 +16,15 @@ import AboutPage from "./Components/Pages/Aboutpage/Aboutpage";
 import TeamPage from "./Components/Pages/TeamPage/TeamPage";
 import Contact from "../src/Components/Pages/Contactpage/Contact";
 import ProductPage from "./Components/Pages/ProductPage/ProductPage";
+import ScrollToTop from "./Components/ScrollToTop";
+import Error404 from "./Components/ErrorPage";
 
 function App() {
   return (
     <>
+      <ScrollToTop />
       <Routes>
+        <Route path="*" element={<Error404 />} />
         <Route
           path="/"
           element={

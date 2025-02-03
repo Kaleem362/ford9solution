@@ -7,6 +7,7 @@ import canva from "../../../Assets/icons/canvaicon.png";
 import wordpress from "../../../Assets/icons/wordpressicon.png";
 import freelancing from "../../../Assets/icons/freelancingicon.png";
 import promptengineering from "../../../Assets/icons/promptengineeringicon.png";
+import { Link } from "react-router-dom";
 function Services() {
   const services = [
     {
@@ -92,12 +93,12 @@ function Services() {
       </div>
       <div className="Contact-btn-div">
         <button className="button">
-          <a
-            href="ContactPage/#ContactPageNavigation"
+          <Link
+            to={"/ContactPage"}
             className="text-decoration-none text-black fw-bold"
           >
             Contact us
-          </a>
+          </Link>
         </button>
       </div>
     </div>
