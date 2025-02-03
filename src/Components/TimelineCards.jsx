@@ -16,11 +16,25 @@ import fourteen from "../images/choosenimagesforslides/14.png";
 import fifteen from "../images/choosenimagesforslides/15.png";
 import sixteen from "../images/choosenimagesforslides/16.png";
 import seventeen from "../images/choosenimagesforslides/17.png";
+import eighteen from "../images/choosenimagesforslides/18.png";
+import nineteen from "../images/choosenimagesforslides/19.png";
+import twenty from "../images/choosenimagesforslides/20.png";
+import twentyone from "../images/choosenimagesforslides/21.png";
+import twentytwo from "../images/choosenimagesforslides/22.png";
+import twentythree from "../images/choosenimagesforslides/23.png";
+import twenthyfour from "../images/choosenimagesforslides/24.png";
+import twentyfive from "../images/choosenimagesforslides/25.png";
 
 function ImageSlider() {
   const images = [
+    twenty,
+    twentyone,
+    twentytwo,
+    twentythree,
+    twenthyfour,
     two,
     three,
+    twentyfive,
     four,
     five,
     six,
@@ -35,6 +49,8 @@ function ImageSlider() {
     fifteen,
     sixteen,
     seventeen,
+    eighteen,
+    nineteen,
   ];
 
   return (
