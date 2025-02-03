@@ -1,46 +1,46 @@
-// import SirImage from "../images/developers/Sir.png";
-// import asfandyar from "../images/developers/asfandyar.png";
-// import Hassan from "../images/developers/Hassan.jpg";
-// import faisal from "../images/developers/faisal.png";
-// import naveedsiraj from "../images/developers/naveedsiraj.png";
-// import amirarafat from "../images/developers/amirarafat.jpg";
-// import shahreyar from "../images/developers/shahreyar.png";
+import hammadsir from "../images/developers/hammad.png";
+import asfand from "../images/developers/asfandyar.png";
+import shareyar from "../images/developers/shahryar.png";
+import hassan from "../images/developers/hassan.jpg";
+import faisal from "../images/developers/faisal.png";
+import naveed from "../images/developers/naveed.png";
+import amirarafat from "../images/developers/amirarafat.jpg";
 
 export const teamMembers = [
   {
     name: "Hammad Ali",
     role: "CEO & Founder",
-    image: "SirImage",
+    image: hammadsir,
   },
   {
     name: "Asfandyar khan",
     role: "Software tester",
-    image: "asfandyar",
+    image: asfand,
   },
   {
     name: "Shahreyar khan",
     role: "SEO",
-    image: "shahreyar",
+    image: shareyar,
   },
   {
     name: "Muhammad Hassan",
     role: "React Native Developer",
-    image: "Hassan",
+    image: hassan,
   },
   {
     name: "Faisal khan",
     role: "React Native Developer",
-    image: "faisal",
+    image: faisal,
   },
   {
     name: "Naveed Siraj",
     role: "React Native Developer",
-    image: "naveedsiraj",
+    image: naveed,
   },
   {
     name: "Amir Arafat",
     role: "Graphics Designer",
-    image: "amirarafat",
+    image: amirarafat,
   },
   //
 ];
