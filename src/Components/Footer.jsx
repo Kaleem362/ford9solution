@@ -1,6 +1,12 @@
 import React from "react";
 import logo from "../Logo/NEWCREATED.png";
 import "../Styles/Footer.css";
+import facebook from "../Assets/icons/facebookicon.png";
+import linkedin from "../Assets/icons/linkedinicon.png";
+import instagram from "../Assets/icons/instagramicon.png";
+import playstore from "../Assets/icons/playstoreicon.png";
+import discord from "../Assets/icons/discordicon.png";
+import youtube from "../Assets/icons/youtubeicon.png";
 
 import { Link } from "react-router-dom";
 
@@ -37,22 +43,22 @@ const Footer = () => {
           <p>follow us on social media</p>
           <div className="social-media-icons">
             <a href="https://discord.com/users/.asfandyarkhan">
-              <img src="{discordIcon}" alt="discord" />
+              <img src={discord} alt="discord" />
             </a>
             <a href="https://www.facebook.com/ford9institute">
-              <img src="{facebookIcon}" alt="facebook" />
+              <img src={facebook} alt="facebook" />
             </a>
             <a href="https://www.youtube.com/@Ford9Solutions">
-              <img src="{youtubeIcon}" alt="youtube" />
+              <img src={youtube} alt="youtube" />
             </a>
             <a href="https://play.google.com/store/search?q=fordnine&c=apps&hl=en">
-              <img src="{playstoreIcon}" alt="playstore" />
+              <img src={playstore} alt="playstore" />
             </a>
             <a href="https://www.instagram.com/ford9institute">
-              <img src="" alt="instagram" />
+              <img src={instagram} alt="instagram" />
             </a>
             <a href="https://www.linkedin.com/company/ford9solutions/posts/?feedView=all">
-              <img src="{linkedinIcon}" alt="linkedin" />
+              <img src={linkedin} alt="linkedin" />
             </a>
           </div>
         </div>

@@ -7,5 +7,5 @@
 
 body {
   background-color: white;
-  cursor: url(../src/pngicons/cursor/custom-cursor.png), auto;
+  cursor: url(../public/custom-cursor.png), auto;
 }
