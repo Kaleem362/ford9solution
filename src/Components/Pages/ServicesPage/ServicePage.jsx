@@ -1,54 +1,61 @@
 import "../../../Styles/ServicesPage.css";
-
+import webapp from "../../../Assets/icons/webapplicationicon.png";
+import mobileapp from "../../../Assets/icons/mobileapplicationicon.png";
+import seo from "../../../Assets/icons/seoicon.png";
+import figma from "../../../Assets/icons/figmaicon.png";
+import canva from "../../../Assets/icons/canvaicon.png";
+import wordpress from "../../../Assets/icons/wordpressicon.png";
+import freelancing from "../../../Assets/icons/freelancingicon.png";
+import promptengineering from "../../../Assets/icons/promptengineeringicon.png";
 function Services() {
   const services = [
     {
       title: "Web Development",
       description:
         "We offer professional web development services tailored to your business needs.",
-      icon: "webapplicationicon",
+      icon: webapp,
     },
     {
       title: "Mobile App Development",
       description:
         "Develop feature-rich mobile apps for both Android and iOS platforms.",
-      icon: "mobileappicon",
+      icon: mobileapp,
     },
     {
       title: "SEO Optimization",
       description:
         "Improve your website's visibility with our effective SEO strategies.",
-      icon: "seoicon",
+      icon: seo,
     },
     {
       title: "Figma Design",
       description:
         "Create visually stunning graphics to enhance your brand identity.",
-      icon: "Figmaicon",
+      icon: figma,
     },
     {
       title: "Canva Design",
       description:
         "Design eye-catching visuals to elevate your brand presence.",
-      icon: "canvaicon",
+      icon: canva,
     },
     {
       title: "WordPress Development",
       description:
         "Build responsive and customizable websites using WordPress to meet your business needs.",
-      icon: "wordpressicon",
+      icon: wordpress,
     },
     {
       title: "Freelancing",
       description:
         "Leverage your skills and work independently on a variety of projects to grow your career.",
-      icon: "freelancingicon",
+      icon: freelancing,
     },
     {
       title: "Prompt Engineering",
       description:
         "Master prompt engineering to craft effective prompts and optimize AI performance.",
-      icon: "promptengineeringicon",
+      icon: promptengineering,
     },
   ];
 
