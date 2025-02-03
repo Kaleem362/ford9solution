@@ -21,10 +21,10 @@ const Footer = () => {
           <p>company</p>
           <Link to="/">Home</Link>
           <Link to="/AboutPage">About</Link>
-          <a href="/TeamPage">Team</a>
-          <a href="/ProductPage">Products</a>
-          <a href="/ServicesPage">Services</a>
-          <a href="/contactPage">Contact</a>
+          <Link to="/teamPage">Team</Link>
+          <Link to="/ProductPage">Products</Link>
+          <Link to="/ServicesPage">Services</Link>
+          <Link to="/contactPage">Contact</Link>
         </div>
         <div>
           <div className="queries-box">

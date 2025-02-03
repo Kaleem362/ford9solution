@@ -53,7 +53,7 @@ function App() {
           }
         />
         <Route
-          path="TeamPage"
+          path="teamPage"
           element={
             <>
               <Navbar />
